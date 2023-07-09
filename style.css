@@ -97,7 +97,7 @@ html, body {
 
 .btn-left{
     background-color: rgba(0, 0, 0, 0.836);
-    margin-left: 20px;
+    margin-right: 20px;
     padding: 10px;
 }
 
@@ -121,12 +121,70 @@ html, body {
 .frame2{
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
+    gap: 30px;
     height: 100%;
     width: 100%;
+    background-color: rgb(192, 193, 194);
+    padding-bottom: 40px;
+}
+
+.arrow{
+    font-weight: bold;
+    font-size: 28px;
+    color: rgb(34, 153, 69);
 }
 
 .top-row{
     display: flex;
+}
+
+.hello-label{
+    font-weight: bold;
+    color: rgb(39, 38, 38);
+}
+
+.video-div{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    height: 100%;
+    width: 100%;
+}
+
+.video-preview{
+    align-self: center;
+    width: 90%;
+    height: 90%;
+    border: solid;
+    border-width: 20px;
+    border-color: rgb(34, 153, 69);
+    border-radius: 5%;
+}
+
+.headline{
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.frame3{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(192, 193, 194);
+    padding-bottom: 40px;
+}
+
+.milestones-div{
+    display: flex;
+    justify-content: flex-end;
+    margin: 30px;
+}
+.rate-div{
+    background-color: rgb(63, 62, 62);
+    display: flex;
+    height: 100%;
+    width: 50%;
 }
